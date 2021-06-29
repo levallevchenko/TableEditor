@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.form__textarea {
+  border: none;
+  padding: 20px;
+  width: 50vw;
+  height: 15vw;
+}
+
+.form__button {
+  padding: 15px;
+  border: none;
+  background-color: #BAF46E;
+  color: #3858A1;
+  font-size: 2vw;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ceff8a;
+  }
+
+  &:active {
+    background-color: #9ac859;
+  }
+}
+

@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: $montserrat;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  background: -webkit-linear-gradient(left, #6C8CD5, #06266F);
+  background: linear-gradient(to right, #6C8CD5, #06266F);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 3vw;
+  color: #fff;
+  margin-bottom: 3vw;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+section {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
